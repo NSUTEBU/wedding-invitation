@@ -80,6 +80,10 @@ body {
   font-family: sans-serif;
 }
 
+h2 {
+  font-size: 30px;
+}
+
 .body h2 {
   padding: 30px;
   font-size: 30px;
@@ -128,7 +132,7 @@ body {
 }
 
 .button:hover {
-  background-color: rgb(204, 204, 204);
+  background-color: #cccc;
   transition-duration: 0s;
   color: #000;
 }
@@ -189,8 +193,7 @@ body {
   gap: 100px;
 }
 
-.venue h1,
-h2 {
+.venue h1 {
   font-size: 30px;
 }
 
@@ -220,7 +223,7 @@ h2 {
   line-height: 1.6;
 }
 
-.rsvp_button {
+.rsvp_Button {
   display: block;
   margin: auto;
   font-size: 20px;
@@ -236,7 +239,7 @@ h2 {
   cursor: pointer;
 }
 
-.rsvp_button:hover {
+.rsvp_Button:hover {
   background-color: #cccc !important;
   color: black;
 }
@@ -259,7 +262,7 @@ h2 {
 
 @media only screen and (max-width: 425px) {
   .body{
-    font-family: "raleway", sans-serif;
+    font-family: raleway, sans-serif;
   }
 
   .navbar-menu {
@@ -273,3 +276,4 @@ h2 {
   }
 
  }
+ 
