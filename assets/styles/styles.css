@@ -1,7 +1,7 @@
 body {
   margin: auto;
-  padding: 0px;
-  font-family: "raleway", sans-serif;
+  padding: 0;
+  font-family: raleway, sans-serif;
 }
 
 .navbar-menu {
@@ -33,13 +33,12 @@ body {
 }
 
 .navbar a.active:hover {
-  background-color: #000000;
+  background-color: #0000;
   color: #fff;
 }
 
 .container {
   background-color: #fdd;
-  /* padding-bottom: -20px; */
   filter: grayscale(50%);
 }
 
@@ -131,7 +130,7 @@ body {
 .button:hover {
   background-color: rgb(204, 204, 204);
   transition-duration: 0s;
-  color: black;
+  color: #000;
 }
 
 .invitation {
@@ -213,7 +212,7 @@ h2 {
   word-spacing: 10px;
 }
 
-.footer P  {
+.footer p  {
   font-size: 18px;
   text-align: center;
   word-spacing: 10px;
@@ -221,7 +220,7 @@ h2 {
   line-height: 1.6;
 }
 
-.RSVP-button {
+.rsvp_button {
   display: block;
   margin: auto;
   font-size: 20px;
@@ -234,10 +233,10 @@ h2 {
   border: 5px;
   width: 160px;
   text-decoration: none;
-  cursor: Pointer;
+  cursor: pointer;
 }
 
-.RSVP-button:hover {
+.rsvp_button:hover {
   background-color: #cccc !important;
   color: black;
 }
@@ -260,12 +259,12 @@ h2 {
 
 @media only screen and (max-width: 425px) {
   .body{
-    font-family: 'raleway',sans-serif;
+    font-family: "raleway", sans-serif;
   }
+
   .navbar-menu {
     width: 100%;
     display: none;
-
   }
 
   .location {
