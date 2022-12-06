@@ -1,11 +1,12 @@
 * {
   box-sizing: border-box;
+  outline: 1px solid red;
 }
 
 body {
-  margin: 0px;
+  margin: auto;
   padding: 0px;
-  font-family: 'raleway', sans-serif;
+  font-family: "raleway", sans-serif;
 }
 
 .navbar-menu {
@@ -13,7 +14,7 @@ body {
   display: flex;
   text-align: center;
   font-size: 1.2rem;
-  background-color: #ffffff;
+  background-color: #fff;
   opacity: 0.6;
   bottom: 0;
   position: fixed;
@@ -23,7 +24,7 @@ body {
 
 .navbar a {
   width: 100%;
-  color: black;
+  color: #000;
   text-decoration: none;
 }
 
@@ -33,7 +34,7 @@ body {
 
 .navbar-menu:hover {
   opacity: 0.9;
-  background-color: #ffffff;
+  background-color: #fff;
 }
 
 .navbar a.active:hover {
@@ -42,7 +43,7 @@ body {
 }
 
 .container {
-  background-color: #ffdddd;
+  background-color: #fdd;
   filter: grayscale(50%);
 }
 
@@ -75,13 +76,12 @@ body {
 
 .text3 {
   font-size: 20px;
-  font-family: 'Times New Roman', Times, serif
 }
 
 .body {
   text-align: center;
   font-size: 25px;
-  color: gray;
+  color: #808080;
   font-family: sans-serif;
 }
 
@@ -99,7 +99,7 @@ body {
 
 .pic2 {
   display: flex;
-  margin: 0px auto;
+  margin: auto;
   width: 100%;
   border-radius: 5px;
   filter: grayscale(50%);
@@ -139,7 +139,7 @@ body {
 }
 
 .invitation {
-  background-image: url(../images/flowers.jpg);
+  background-image: url("../images/flowers.jpg");
   padding-top: 15vh;
   min-height: 600px;
   background-color: #ffd7d7;
@@ -171,7 +171,7 @@ body {
 }
 
 .venue h1 {
-  color: gray;
+  color: #808080;
   padding: 30px;
   font-size: 50px;
   text-align: center;
@@ -179,7 +179,7 @@ body {
 
 .pic3 {
   display: flex;
-  margin: 0px auto;
+  margin: auto;
   width: 95%;
   margin-top: 15px;
   border-radius: 5px;
@@ -190,7 +190,8 @@ body {
   text-align: center;
 }
 
-.venue h1,h2 {
+.venue h1,
+h2 {
   font-size: 30px;
 }
 
@@ -198,24 +199,12 @@ body {
   font-size: 20px;
 }
 
-.venue {
-  display: flex;
-  font-size: 50px;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  width: 100%;
-  margin: auto;
-  padding-bottom: 50px;
-  height: fit-content;
-}
-
 .footer {
   background-color: #ffd7d7;
   height: 60vh;
   display: flex;
   flex-direction: column;
+  margin-top: -17px;
   text-align: justify;
 }
 
@@ -225,7 +214,7 @@ body {
   word-spacing: 10px;
 }
 
-.footer P {
+.footer P  {
   font-size: 18px;
   text-align: center;
   word-spacing: 10px;
@@ -247,11 +236,11 @@ body {
   border: 5px;
   width: 160px;
   text-decoration: none;
-  cursor: pointer;
+  cursor: Pointer;
 }
 
 .RSVP-button:hover {
-  background-color: #cccccc !important;
+  background-color: #cccc !important;
   color: black;
 }
 
@@ -263,7 +252,7 @@ body {
   justify-content: center;
   align-items: center;
   text-align: center;
-  color: white;
+  color: #fff;
   height: 15vh;
 }
 
@@ -278,5 +267,7 @@ body {
 .navbar-menu {
   width: 100%;
   display: none;
+
 }
-}
+
+ }
