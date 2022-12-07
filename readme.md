@@ -12,7 +12,7 @@ knowledge about:
 - CSS
 - Google Chrome
 ### Clone project
-- Get a local copy of the project by following these steps.
+- Get a local copy of the projects by following these steps.
 - clone the repository with`git@github.com:NSUTEBU/wedding-invitation.git`using your terminal
 ## Steps
 -$ `git@github.com:NSUTEBU/wedding-invitation.git`using your terminal
