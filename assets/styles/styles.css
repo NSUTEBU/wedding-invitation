@@ -170,11 +170,12 @@ h2 {
 }
 
 .venue h1 {
-  color: #8080;
-  font-size: 30px;
-  padding: 30px;
-  font-size: 50px;
   text-align: center;
+  padding: 30px;
+  font-size: 32px;
+  color: #808080;
+
+  
 }
 
 .pic3 {
@@ -212,7 +213,7 @@ h2 {
   word-spacing: 10px;
 }
 
-.footer p  {
+.footer p {
   font-size: 18px;
   text-align: center;
   word-spacing: 10px;
@@ -220,7 +221,7 @@ h2 {
   line-height: 1.6;
 }
 
-.rsvp_Button {
+.rsvp1 {
   display: block;
   margin: auto;
   font-size: 20px;
@@ -236,7 +237,7 @@ h2 {
   cursor: pointer;
 }
 
-.rsvp_Button:hover {
+.rsvp1:hover {
   background-color: #cccc !important;
   color: black;
 }
