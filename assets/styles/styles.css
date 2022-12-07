@@ -252,11 +252,11 @@ h2 {
   height: 15vh;
 }
 
-#w3schools-link {
+a {
   color: aliceblue;
 }
 
-#w3schools-link :hover{
+a:hover {
   color: green;
 }
 
