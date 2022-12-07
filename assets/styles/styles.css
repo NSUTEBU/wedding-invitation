@@ -256,6 +256,10 @@ h2 {
   color: aliceblue;
 }
 
+#w3schools-link :hover{
+  color: green;
+}
+
 @media only screen and (max-width: 425px) {
   .body {
     font-family: raleway, sans-serif;
