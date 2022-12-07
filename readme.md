@@ -2,7 +2,7 @@
 This project is all about a wedding template which takes into account and shows as follows: The first part or section gives a view of john holding jane, second image shows them embracing and the 3rd and
 last image denotes the invitation and venue. lastly, the footer and link.
 ## App
-![wedding-template](assets/images/wedding.png) 
+![wedding-template](assets/images/wedding.png)
 ### Built with
 - HTML
 - CSS
