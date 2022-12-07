@@ -173,9 +173,7 @@ h2 {
   text-align: center;
   padding: 30px;
   font-size: 32px;
-  color: #808080;
-
-  
+  color: #808080; 
 }
 
 .pic3 {
@@ -259,7 +257,7 @@ h2 {
 }
 
 @media only screen and (max-width: 425px) {
-  .body{
+  .body {
     font-family: raleway, sans-serif;
   }
 
